@@ -1,11 +1,17 @@
-#缘起
+---
+layout: '[page]'
+title: Deploy ShadowSocks On CentOS 7 Server
+date: 2018-12-10 5:53:23
+tags:
+---
+# 缘起
 平时都会用到google用来学习，facebook也玩玩，所以你懂得。现在是非常时期，许多VPN商都倒了。只能自己搭建。我用的主机是Vultr的，配置如下：CPU:1 vCore，RAM:1024 MB，Storage:25 GB SSD，每月5刀，刚开始用的是东京节点，但是容易掉包。后来切换到新加坡节点。
 Vultr现在支持支付宝了，很方便。大家如果购买请使用我的推广链接，https://www.vultr.com/?ref=7159825
 
-#Shadowsocks
+# Shadowsocks
 Shadowsocks(ss) 是由 Clowwindy 开发的一款软件，其作用本来是加密传输资料。当然，也正因为它加密传输资料的特性，使得 GFW 没法将由它传输的资料和其他普通资料区分开来，也就不能干扰我们访问那些「不存在」的网站了。
 
-#安装
+# 安装
 我的服务器是Centos7内核如下：
 
 	[root@rootrl var]# uname -a
