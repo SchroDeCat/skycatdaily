@@ -1,3 +1,8 @@
+---
+layout: '[page]'
+title: Resolve Length Home Page
+tags:
+---
 # Resolve Length Home Page
 ## Motivation
 After deploying "Hexo + next" on my server, I find it really bothering that the home page doesn't conduct auto-excerption on the articles like ghost. However, i can be artificially set in the configuration of next theme. 

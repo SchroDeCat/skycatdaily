@@ -1,4 +1,8 @@
-#Establish FTP Server on Centos7
+---
+layout: '[page]'
+title: Establish FTP Server
+tags:
+---
 ## 1.关于VSFTP
 
 在 Linux 下搭建 FTP 服务器一般会使用 vsftpd。vsftpd 的前两个字母代表 "very secure" 。
