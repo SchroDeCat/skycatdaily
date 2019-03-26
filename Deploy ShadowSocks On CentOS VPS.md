@@ -65,7 +65,8 @@ Shadowsocks(ss) 是由 Clowwindy 开发的一款软件，其作用本来是加�
 按照如下内容使用vi工具编辑 /etc/shadowsocks.json
 
 	{
-    "server":"my_server_ip",
+    "server":"my_server_ip",  
+    # Note:Aliyun & Tencent Yun this should be the private IP instead of Public IP
     "server_port":9000,
     "local_address": "127.0.0.1",
     "local_port":1080,
@@ -190,3 +191,4 @@ Shadowsocks(ss) 是由 Clowwindy 开发的一款软件，其作用本来是加�
 # 转载
 https://cloud.tencent.com/developer/article/1159683
 https://rootrl.github.io/2017/10/11/Vultr-centos%E5%AE%89%E8%A3%85shadowsocks%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%B9%B6%E5%BC%80%E5%90%AFBBR%E5%8A%A0%E9%80%9F/
+https://github.com/shadowsocks/shadowsocks/issues/298
